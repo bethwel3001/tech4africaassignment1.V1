@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <title>login</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/register.css">
+</head>
+<body>
+    <h2 class="logo">Makutano Bus Bookings</h1>
+        <nav>
+            <!-- navigation -->
+            <div class="nav-links">
+              <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+                <li><a href="form.html">REGISTER</a></li>
+              </ul>
+            </div>
+          </nav>
+          
+<form id="login-form" onsubmit="return validateForm()">
+    <h3>Login or <a href="form.html">Signup</a></h3>
+    <div class="container">
+        <label for="email"><b>Email</b></label>
+        <input type="email" placeholder="Enter Email" name="email" required>
+
+        <label for="password"><b>Password</b></label>
+        <input type="password" placeholder="Enter Password" name="password" required>
+
+        <button type="submit" onclick="submitForm()">Login</button>
+    </div>
+</form>
+</body>
+</html>
+
+
+
+
+
+
